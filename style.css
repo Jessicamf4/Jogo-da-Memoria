@@ -9,11 +9,13 @@ body {
  display: flex; 
  background-color: aquamarine;
 }
+
 .título {
    font-size: 15px; 
    font-style: italic;
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-align: center;
+   color: blueviolet;
 
 }
 .memory-game {
