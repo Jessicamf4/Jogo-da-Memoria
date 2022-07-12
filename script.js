@@ -69,6 +69,15 @@ function resetBoard(){
 //oder número inteiro, vai alerr o cantainer
 //flex conteine, cada um recebe um número, temos divs com 2 imagens cada uma das imagens vai ter um número
 
+/*const name = document.querySelector('.cards')
+function resetAll(cards){
+    
+    resetBoard();
+}*/
+
+
+
+
 (function shuffle() {
     cards.forEach((card) => {
         let randomPosition = Math.floor(Math.random() * 6);
@@ -85,3 +94,4 @@ function resetBoard(){
 cards.forEach((card) => {
     card.addEventListener('click', flipCard)
 });
+
